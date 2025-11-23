@@ -1,0 +1,27 @@
+body{
+    font-family: Inter;
+}
+
+.items{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.katalog{
+    display: flex;
+}
+
+.item{
+    border: 1px solid black;
+    border-radius: 4px ;
+    text-align: center;
+    padding: 5px 25px 5px 25px;
+}
+
+.item_img{
+    width: 93px;
+    height: 93px;
+}
