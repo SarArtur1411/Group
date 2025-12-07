@@ -10,50 +10,150 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <header>
-    </header>
-    <main>
-        <h1 class="katalog_h1">Каталог</h1>
-        <section class="katalog">
-            <div class="items">
-                <div class="item">
-                    <img src="img/core.png" alt="" class="item_img">
-                    <p class="item_text">Процесори</p>
+    <div class="container">
+        <div class="breadcrumbs">
+            <a href="#">Головна</a> > <span>Каталог</span>
+        </div>
+
+        <div class="header">
+            <h1>Каталог комплектуючих</h1>
+            
+            <div class="search-filter">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" placeholder="Пошук товарів..." id="searchInput">
                 </div>
-                <div class="item">
-                    <img src="img/від.jfif" alt="" class="item_img">
-                    <p class="item_text">Відеокарти</p>
-                </div>
-                <div class="item">
-                    <img src="img/Block.webp" alt="" class="item_img">
-                    <p class="item_text">Блоки живлення</p>
-                </div>
-                <div class="item">
-                    <img src="img/SSD.jpg" alt="" class="item_img">
-                    <p class="item_text">SSD</p>
-                </div>
-                <div class="item">
-                    <img src="img/hDD.jpg" alt="" class="item_img">
-                    <p class="item_text">HDD</p>
-                </div>
-                <div class="item">
-                    <img src="img/oper.jfif" alt="" class="item_img">
-                    <p class="item_text">Оперативна <br> пам’ять</p>
-                </div>
-                <div class="item">
-                    <img src="img/mater.jpg" alt="" class="item_img">
-                    <p class="item_text">Материнська <br>плата  </p>
-                </div>
-                <div class="item">
-                    <img src="img/vodyan.webp" alt="" class="item_img">
-                    <p class="item_text">Системи <br>охолодження</p>
+                <div class="filter-buttons">
+                    <button class="filter-btn"> За ціною</button>
+                    <button class="filter-btn"> За брендом</button>
+                    <button class="filter-btn"> Популярні</button>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer>
+        </div>
 
-    </footer>
+        <div class="catalog-grid">
+            <div class="category-card">
+                <div class="category-icon">
+                    <span class="icon-emoji">🖥️</span>
+                </div>
+                <div class="category-title">Процесори</div>
+                <div class="category-count">156 товарів</div>
+                <div class="category-brands">Intel, AMD, Apple</div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">
+                    <span class="icon-emoji">🎮</span>
+                </div>
+                <div class="category-title">Відеокарти</div>
+                <div class="category-count">203 товари</div>
+                <div class="category-brands">NVIDIA, AMD, ASUS</div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">
+                    <span class="icon-emoji">⚡</span>
+                </div>
+                <div class="category-title">Блоки живлення</div>
+                <div class="category-count">89 товарів</div>
+                <div class="category-brands">Corsair, EVGA, Seasonic</div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">
+                    <span class="icon-emoji">💾</span>
+                </div>
+                <div class="category-title">SSD</div>
+                <div class="category-count">178 товарів</div>
+                <div class="category-brands">Samsung, Kingston, WD</div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">
+                    <span class="icon-emoji">💿</span>
+                </div>
+                <div class="category-title">HDD</div>
+                <div class="category-count">67 товарів</div>
+                <div class="category-brands">Seagate, WD, Toshiba</div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">
+                    <span class="icon-emoji">🧠</span>
+                </div>
+                <div class="category-title">Оперативна пам'ять</div>
+                <div class="category-count">142 товари</div>
+                <div class="category-brands">Corsair, G.Skill, Kingston</div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">
+                    <span class="icon-emoji">🔧</span>
+                </div>
+                <div class="category-title">Материнські плати</div>
+                <div class="category-count">124 товари</div>
+                <div class="category-brands">ASUS, MSI, Gigabyte</div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">
+                    <span class="icon-emoji">❄️</span>
+                </div>
+                <div class="category-title">Системи охолодження</div>
+                <div class="category-count">95 товарів</div>
+                <div class="category-brands">Noctua, Corsair, Arctic</div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">
+                    <span class="icon-emoji">🖥️</span>
+                </div>
+                <div class="category-title">Монітори</div>
+                <div class="category-count">187 товарів</div>
+                <div class="category-brands">Dell, LG, Samsung</div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">
+                    <span class="icon-emoji">⌨️</span>
+                </div>
+                <div class="category-title">Клавіатури</div>
+                <div class="category-count">156 товарів</div>
+                <div class="category-brands">Logitech, Razer, Corsair</div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">
+                    <span class="icon-emoji">🖱️</span>
+                </div>
+                <div class="category-title">Миші</div>
+                <div class="category-count">198 товарів</div>
+                <div class="category-brands">Logitech, Razer, SteelSeries</div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">
+                    <span class="icon-emoji">📦</span>
+                </div>
+                <div class="category-title">Корпуси</div>
+                <div class="category-count">112 товарів</div>
+                <div class="category-brands">NZXT, Corsair, Fractal</div>
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <h3> Популярні категорії</h3>
+            <div class="quick-link-grid">
+                <a href="#" class="quick-link">Ігрові ПК</a>
+                <a href="#" class="quick-link">Офісні ПК</a>
+                <a href="#" class="quick-link">Ноутбуки</a>
+                <a href="#" class="quick-link">Аксесуари</a>
+                <a href="#" class="quick-link">Розпродаж</a>
+                <a href="#" class="quick-link">Новинки</a>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
